@@ -1,0 +1,184 @@
+
+/**
+ * Responsive css 
+ */
+body {
+	width: 100%;
+}
+
+.single-column #page {
+  width: 670px;
+}
+.single-column #main .widget-area {
+  float: left;
+  overflow: hidden;
+  width: 300px;
+}
+.single-column #main #sidebar {
+  overflow: hidden;
+  width: 100%;
+  padding-top: 25px;
+  margin-top: 25px;
+}
+
+#page {
+	width: 96.77419%;
+}
+
+#main {
+	width: 100%;
+}
+#primary {
+  float: left;
+  width: 69.33593%;
+}
+#primary.full-width {
+  width: 100%;
+}
+
+#main .widget-area {
+  float: right;
+  width: 100%;
+}
+
+#sidebar {
+  float: right;
+  overflow: hidden;
+  width: 30.66406%;
+}
+#branding .logo {
+	width: 18.06640%;
+	margin-right: 15px;
+}
+#branding img.img-logo{
+	display:block;
+	width: 100%;
+}
+.branding-info {
+	width: 80.46875%;
+}
+.no-site-image .branding-text {
+	padding: 60px 0;
+}
+.no-site-image .site-social {
+	padding: 156px 0 0 0;
+}
+.show-site-image .site-social {
+	padding: 36px 0 0 0;
+}
+.branding-text {
+	width: 78.04878%
+}
+
+#site-title {
+	font-size: 3em;
+}
+#site-description {
+	font-size: 1.7em;
+}
+
+.author-note {
+	width: 73.33333%;
+}
+.author-meta{
+	float: left;
+}
+.entry-media .u-photo-featured {
+	width: 89.8205%;
+}
+
+#content {
+  margin: 0 40px 0 0;
+}
+footer #footer-widget {
+    width: 96.09375%;
+}
+#footer-widget .widget {
+   margin: 0 18px 40px 0;
+   padding: 0;
+   width: 31.50406%;
+}
+.entry-header .entry-title a, .entry-header h1 {
+	font-size: 1.6em;
+}
+.entry-content,
+.entry-title,
+.entry-meta,
+.entry-summary {
+	padding: 0 34px;
+	text-shadow: none;
+}
+
+@media only screen and (max-width: 1024px) {
+	#branding .logo{
+		margin-right: 10px;
+	}
+	.branding-text {
+		width: 77.28983%;
+	}
+	.site-image {
+	    display: block;
+	    width: 100%;
+	}
+}
+@media only screen and (max-width: 769px) {
+	body {
+		font-size: 0.9em;
+	}
+	.branding-info {
+		width: 100%;
+	}
+	#branding .logo {
+		width: 21.50537%;
+		margin-right: 8px;
+	}
+	.branding-text {
+		position: absolute;
+		right: 0;
+		top: 20px;
+		width: 77.41935%;
+	}
+	#site-title {
+		font-size: 2em;
+	}
+	#site-description {
+		font-size: 1em;
+	}
+
+   .site-image {
+	    position: relative;
+	    width: 100%;
+	}
+	#primary {
+		width: 100%;
+		margin: 0;
+	}
+	#content {
+	  margin: 0;
+	}
+	#sidebar {
+	   display: none;
+	}
+	footer #footer-widget {
+	    width: 87.09677%;
+	}
+	#footer-widget .widget {
+		width: 100%;
+	}
+	.entry-header .entry-title a, .entry-header h1 {
+		font-size: 1.5em;
+	}
+	.entry-content,
+	.entry-title,
+	.entry-meta,
+	.entry-summary {
+		padding: 0 20px;
+	}
+	.sep {
+	    display: block;
+	    width: 100%;
+	}
+	.author-meta{
+		float: none;
+	}
+}
