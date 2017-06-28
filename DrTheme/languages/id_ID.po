@@ -1,0 +1,484 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: drtheme\n"
+"POT-Creation-Date: 2017-04-17 21:19+0700\n"
+"PO-Revision-Date: 2017-04-17 21:19+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;_nx\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:16
+msgid "Well this is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "ini sesuatu yang bikin malu, bukan ?"
+
+#: 404.php:22 archive.php:69 category.php:54 index.php:39 tag.php:46
+#: taxonomy-post_format.php:50
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Tampaknya kami tidak menemukan apa yang Anda cari."
+
+#: archive.php:32 archive.php:34
+#, php-format
+msgid "Archives: %s"
+msgstr "Arsip: %s"
+
+#: archive.php:36 sidebar.php:22
+msgid "Archives"
+msgstr "Arsip"
+
+#: archive.php:65
+msgid "Nothing Archive Found"
+msgstr "Tidak ada Arsip ditemukan"
+
+#: author.php:27
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Arsip Penulis: %s"
+
+#: author.php:63 search.php:33 tag.php:42 taxonomy-post_format.php:45
+msgid "Nothing Found"
+msgstr "Tidak ditemukan"
+
+#: author.php:67
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Tampaknya kita tidak menemukan apa yang Anda cari."
+
+#: category.php:17
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Arsip Kategori: %s"
+
+#: category.php:50
+msgid "Nothing Catagory Found"
+msgstr "Catagory tidak ditemukan"
+
+#: comments.php:17
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Tulisan komentar ini menggunakan password. Masukan password untuk melihat  "
+"komentar"
+
+#: comments.php:40 comments.php:60
+msgid "Comment navigation"
+msgstr "navigasi komentar"
+
+#: comments.php:41 comments.php:61
+msgid "&larr; Older Comments"
+msgstr "&larr; Komentar Terakhir"
+
+#: comments.php:42 comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr "Komentar Terbaru &rarr;"
+
+#: comments.php:73
+#, php-format
+msgid "Comments are closed for this %1$s."
+msgstr "Komentar di tutup untuk  %1$s."
+
+#: entry-footer.php:6
+msgid "Posted "
+msgstr "Di Posting"
+
+#: entry-footer.php:9 entry-footer.php:17
+msgid ", "
+msgstr ","
+
+#: entry-footer.php:12
+#, php-format
+msgid "in %1$s"
+msgstr "Pada %1$s"
+
+#: entry-footer.php:21
+#, php-format
+msgid "Tagged Post : %1$s"
+msgstr "Tagged Post : %1$s"
+
+#: entry-footer.php:29
+msgid "Leave a comment"
+msgstr "Tinggalkan Komentar"
+
+#: entry-footer.php:29
+msgid "1 Comment"
+msgstr "1 Komentar"
+
+#: entry-footer.php:29
+msgid "% Comments"
+msgstr "% Komentar"
+
+#: entry-footer.php:33 image.php:31 image.php:97
+#: template-part/content-page.php:23
+msgid "Edit"
+msgstr "Rubah"
+
+#: functions.php:100
+msgid "Primary Menu"
+msgstr "Menu Utama"
+
+#: functions.php:207
+msgid "DrTheme Theme Layout"
+msgstr "DrTheme Theme Layout"
+
+#: functions.php:208
+msgid "Allows you to customize Theme Layout."
+msgstr "Memungkinkan Anda untuk menyesuaikan Tata Letak Tema."
+
+#: functions.php:218
+msgid "Text Color"
+msgstr "Warna Text"
+
+#: functions.php:229
+msgid "Shadow Color"
+msgstr "Warna Bayangan"
+
+#: functions.php:240
+msgid "Border Color"
+msgstr "Warna Garis"
+
+#: functions.php:251
+msgid "Page Structure"
+msgstr "Structur Halaman"
+
+#: functions.php:256
+msgid "Single Column (Sidebar at the bottom)"
+msgstr "Single Column (Sidebar berada dibawah)"
+
+#: functions.php:257
+msgid "Multi Column (Sidebar at the right)"
+msgstr "Multi Column (Sidebar berada di kanan)"
+
+#: functions.php:307
+msgid "Sidebar 1"
+msgstr "Sidebar 1"
+
+#: functions.php:316
+msgid "Sidebar 2"
+msgstr "Sidebar 2"
+
+#: functions.php:318
+msgid "An optional second sidebar area"
+msgstr "An optional second sidebar area"
+
+#: functions.php:325
+msgid "Footer Widget Area"
+msgstr "Footer Widget Area"
+
+#: functions.php:327
+msgid "The footer widget area"
+msgstr "The footer widget area"
+
+#: functions.php:375
+msgid "on"
+msgstr "on"
+
+#: header.php:73
+msgid "Main menu"
+msgstr "Main menu"
+
+#: header.php:78
+msgid "Skip to content"
+msgstr "Skip to content"
+
+#: image.php:21
+#, php-format
+msgid ""
+"Published <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" "
+"itemprop=\"dateModified\">%2$s</time> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return "
+"to %7$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Published <time class=\"entry-date updated dt-updated\" datetime=\"%1$s\" "
+"itemprop=\"dateModified\">%2$s</time> at <a href=\"%3$s\" title=\"Link to "
+"full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return "
+"to %7$s\" rel=\"gallery\">%7$s</a>"
+
+#: image.php:35
+msgid "&larr; Previous"
+msgstr "&larr; Previous"
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Next &rarr;"
+
+#: image.php:83 template-part/content-aside.php:22
+#: template-part/content-audio.php:22 template-part/content-chat.php:14
+#: template-part/content-gallery.php:22 template-part/content-image.php:22
+#: template-part/content-link.php:21 template-part/content-page.php:22
+#: template-part/content-quote.php:21 template-part/content-single.php:29
+#: template-part/content-status.php:21 template-part/content-video.php:19
+msgid "Pages:"
+msgstr "Pages:"
+
+#: image.php:87
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+
+#: image.php:90
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+
+#: image.php:93
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+
+#: image.php:95
+msgid "Both comments and trackbacks are currently closed."
+msgstr "Both comments and trackbacks are currently closed."
+
+#: inc/drtheme-back-compat.php:40 inc/drtheme-back-compat.php:52
+#: inc/drtheme-back-compat.php:67
+#, php-format
+msgid ""
+"DrTheme Theme requires at least WordPress version 4.4. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+"DrTheme Theme requires at least WordPress version 4.4. You are running "
+"version %s. Please upgrade and try again."
+
+#: inc/drtheme-template-tag.php:24
+msgid "Home"
+msgstr "Home"
+
+#: inc/drtheme-template-tag.php:31 inc/drtheme-template-tag.php:37
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/drtheme-template-tag.php:100
+msgid "Post navigation"
+msgstr "Post navigation"
+
+#: inc/drtheme-template-tag.php:103
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/drtheme-template-tag.php:104
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/drtheme-template-tag.php:109
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Older posts"
+
+#: inc/drtheme-template-tag.php:113
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/drtheme-template-tag.php:141
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">says:</span>"
+
+#: inc/drtheme-template-tag.php:144
+msgid "Your comment is awaiting moderation."
+msgstr "Your comment is awaiting moderation."
+
+#: inc/drtheme-template-tag.php:153
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s at %2$s"
+
+#: inc/drtheme-template-tag.php:156
+msgid "(Edit)"
+msgstr "(Edit)"
+
+#: inc/drtheme-template-tag.php:181
+#, php-format
+msgid ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated published "
+"dt-updated dt-published\" datetime=\"%3$s\" itemprop=\"dateModified\">%4$s</"
+"time></a><address class=\"byline\"> <span class=\"sep\"> by </span> <span "
+"class=\"author p-author vcard hcard h-card\" itemprop=\"author\" itemscope "
+"itemtype=\"http://schema.org/Person\">%5$s <a class=\"url uid u-url u-uid fn "
+"p-name\" href=\"%6$s\" title=\"%7$s\" rel=\"author\" itemprop=\"url\"><span "
+"itemprop=\"name\">%8$s</span></a></span></address>"
+msgstr ""
+"<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel="
+"\"bookmark\" class=\"url u-url\"><time class=\"entry-date updated published "
+"dt-updated dt-published\" datetime=\"%3$s\" itemprop=\"dateModified\">%4$s</"
+"time></a><address class=\"byline\"> <span class=\"sep\"> by </span> <span "
+"class=\"author p-author vcard hcard h-card\" itemprop=\"author\" itemscope "
+"itemtype=\"http://schema.org/Person\">%5$s <a class=\"url uid u-url u-uid fn "
+"p-name\" href=\"%6$s\" title=\"%7$s\" rel=\"author\" itemprop=\"url\"><span "
+"itemprop=\"name\">%8$s</span></a></span></address>"
+
+#: inc/drtheme-template-tag.php:188
+#, php-format
+msgid "View all posts by %s"
+msgstr "View all posts by %s"
+
+#: inc/drtheme-template-tag.php:267
+msgid "This site is  Created by"
+msgstr "This site is  Created by"
+
+#: inc/drtheme-template-tag.php:269
+msgid "Dr Software Lab&lsquo;s"
+msgstr "Dr Software Lab&lsquo;s"
+
+#: inc/drtheme_options.php:11
+msgid "General setting Options"
+msgstr "General setting Options"
+
+#: inc/drtheme_options.php:12
+msgid "Social Media Url Input"
+msgstr "Social Media Url Input"
+
+#: inc/drtheme_options.php:26
+msgid "Display Sidebar on Front Page"
+msgstr "Display Sidebar on Front Page"
+
+#: inc/drtheme_options.php:27
+msgid "Enable Sidebar on Front page."
+msgstr "Enable Sidebar on Front page."
+
+#: inc/drtheme_options.php:35
+msgid "Facebook Url Link"
+msgstr ""
+
+#: inc/drtheme_options.php:36
+msgid "A facebook url link field."
+msgstr ""
+
+#: inc/drtheme_options.php:40
+msgid "Please insert valid Facebook url"
+msgstr ""
+
+#: inc/drtheme_options.php:45
+msgid "Twitter Url Link"
+msgstr ""
+
+#: inc/drtheme_options.php:46
+msgid "A twitter url link field."
+msgstr ""
+
+#: inc/drtheme_options.php:50
+msgid "Please insert valid twitter url"
+msgstr ""
+
+#: inc/drtheme_options.php:55
+msgid "Instagram Url Link"
+msgstr ""
+
+#: inc/drtheme_options.php:56
+msgid "An instagram url link field."
+msgstr ""
+
+#: inc/drtheme_options.php:60
+msgid "Please insert valid instagram url"
+msgstr ""
+
+#: inc/drtheme_options.php:70
+msgid "DrTheme Settings - Contextual Help"
+msgstr ""
+
+#: inc/drtheme_options.php:71
+msgid ""
+"Please fell free to ask me. <a href=\"mailto:rachmat.yanuarsyah@gmail.com?"
+"Subject=ask%20help%20for%20DrTheme\" target=\"_top\">rachmat."
+"yanuarsyah@gmail.com.</a>"
+msgstr ""
+
+#: inc/drtheme_settings.php:27
+msgid "DrTheme General Options"
+msgstr ""
+
+#: inc/drtheme_settings.php:44
+msgid "DrTheme Setting"
+msgstr ""
+
+#: inc/drtheme_settings.php:152
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/drtheme_settings.php:249
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: inc/drtheme_settings.php:261
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#: inc/drtheme_settings.php:271
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: inc/drtheme_settings.php:293
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: inc/drtheme_settings.php:295
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: inc/drtheme_settings.php:303
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: inc/drtheme_settings.php:373
+msgid "Settings for this section"
+msgstr ""
+
+#: index.php:34
+msgid "No Result Post Found"
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: sidebar.php:28
+msgid "Meta"
+msgstr ""
+
+#: tag.php:16
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: taxonomy-post_format.php:22
+#, php-format
+msgid "%s Archives"
+msgstr ""
+
+#: template-part/content-aside.php:21 template-part/content-audio.php:21
+#: template-part/content-chat.php:13 template-part/content-gallery.php:21
+#: template-part/content-image.php:21 template-part/content-link.php:20
+#: template-part/content-quote.php:20 template-part/content-single.php:28
+#: template-part/content-status.php:20 template-part/content-video.php:18
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
